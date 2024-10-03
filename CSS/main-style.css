@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+*{scroll-behavior: smooth;}
+.navbar.scrolled {
+            background-color:#F5F5F5 ; 
+        }
+
+
+.service{
+color: #ffffff;
+    background-color: #fac42b;
+    padding: 20px;
+    line-height: 1;
+    font-weight: 300;
+    position: relative;
+    overflow: hidden
+}
+nav > .nav.nav-tabs{
+
+  border: none;
+    color:#fff;
+    background:#F5F5F5;
+    border-radius:0;
+
+}
+nav > div a.nav-item.nav-link,
+nav > div a.nav-item.nav-link.active
+{
+  border: none;
+    padding: 18px 25px;
+    color:#262626;
+    background:#F5F5F5;
+    border-radius:1;
+}
+
+nav > div a.nav-item.nav-link.active:after
+ {
+  content: "";
+  position: relative;
+  bottom: -60px;
+  left: -10%;
+  border: 15px solid transparent;
+  border-top-color: #fac42b ;
+}
+.tab-content{
+  background: #fdfdfd;
+    line-height: 25px;
+    border: 0.5px solid #262626;
+    border-top:5px solid #fac42b;
+    border-bottom:5px solid #fac42b;
+    padding:30px 25px;
+}
+
+nav > div a.nav-item.nav-link:hover,
+nav > div a.nav-item.nav-link:focus
+{
+  border: none;
+    background: #fac42b;
+    color:#fff;
+    border-radius:0;
+    transition:background 0.20s linear;
+}
+.homebd-grift{
+	background: #F5F5F5
+}
+.Servicepy-5{
+	background: #F5F5F5
+}
+.register {
+    background: #f5f5f5;
+	background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    border-bottom: 1px ;
+	    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+	border-bottom-color: rgb(240, 240, 240);
+    padding: 70px 0 90px 0;
+}
+.price-table {
+    color: #2E2B2B;
+    background: #fac42b;
+	background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    padding: 20px;
+    line-height: 2;
+    font-weight: 300;
+    position: relative;
+    overflow: hidden;
+	    overflow-x: hidden;
+    overflow-y: hidden;
+}
